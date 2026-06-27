@@ -1,7 +1,7 @@
 
 # AWS Terraform Backend with S3 Bucket
 
-### This repository provides a Terraform configuration to set up an AWS backend using an S3 bucket for storing Terraform state files. By using an S3 bucket, we can ensure that Terraform state is stored in a reliable and scalable way, while also enabling state locking via DynamoDB to prevent concurrent modification.
+### This Repository Provides a Terraform Configuration to Set Up an AWS Backend using an S3 Bucket for Storing Terraform State Files. By Using an S3 bucket, We Can Ensure that Terraform State is Stored in a Reliable and Scalable Way, While Also Enabling State Locking Via DynamoDB to Prevent Concurrent Modification.
 
 ## Create and Setup S3 Bucket for Storing Terraform State File
 
@@ -21,4 +21,4 @@ backend "s3" {
 ```
 
 ## Conclusion
-### This configuration sets up a remote backend with S3 and optional state locking via DynamoDB, providing a robust, team-friendly way to manage Terraform State File.
+### This Configuration Sets Up a Remote Backend With S3 and Optional State Locking Via DynamoDB, Providing a Robust, Team Friendly Way to Manage Terraform State File.
