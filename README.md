@@ -12,7 +12,7 @@
 backend "s3" {
 
     bucket = "S3 Bucket Name"
-    region = "AWS Region in which S3 Bucket is Provisioned"
+    region = "AWS Region in Which S3 Bucket is Provisioned"
     key    = "Path to Terraform State File in the S3 Bucket"
 
     dynamodb_table = "DynamoDB Table"
